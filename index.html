@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Abin Hyanmikha - Front-end Developer</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Abin Hyanmikha</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+            <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#services" class="nav__link">Services</a></li>
+            <li><a href="#projects" class="nav__link">Projects</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Hello, I'm</span>
+            <h1 class="home__title">Abin Hyanmikha</h1>
+            <h2 class="home__education">Front-end Developer</h2>
+            <p class="home__description">
+              I create responsive, user-friendly websites with clean code and
+              modern tools. Let's build something great together.
+            </p>
+            <a href="#contact" class="button button--flex"
+              >Let's Talk <i class="ri-send-plane-line"></i
+            ></a>
+            <div class="home__social">
+              <a href="https://www.instagram.com/abinhyanmikha" target="_blank" class="home__social-link" aria-label="Instagram"
+                ><i class="ri-instagram-line"></i
+              ></a>
+              <a href="#" class="home__social-link" aria-label="Dribbble"
+                ><i class="ri-dribbble-line"></i
+              ></a>
+              <a href="https://github.com/abinhyanmikha" target="_blank" class="home__social-link" aria-label="GitHub"
+                ><i class="ri-github-line"></i
+              ></a>
+            </div>
+          </div>
+          <div class="home__img-wrapper">
+            <div class="home__hexagon">
+              <img
+                src="assets/img/blob.png"
+                alt="Abin Hyanmikha"
+                class="home__img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__img-wrapper">
+            <div class="about__hexagon">
+              <img
+                src="assets/img/blob.png"
+                alt="Abin Hyanmikha"
+                class="about__img"
+              />
+            </div>
+          </div>
+          <div class="about__content">
+            <span class="about__subtitle">My Intro</span>
+            <h2 class="about__title">About Me</h2>
+            <p class="about__description">
+              I'm a front-end developer with experience building responsive,
+              accessible websites. I focus on clean code, performance, and great
+              user experiences.
+            </p>
+            <a href="#contact" class="button button--flex"
+              >Contact Me <i class="ri-mail-line"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <div class="skills__container container grid">
+          <div class="skills__content">
+            <span class="skills__subtitle">Favorite Skills</span>
+            <h2 class="skills__title">My Skills</h2>
+            <p class="skills__description">
+              Here are some of the technologies and tools I work with. Check out
+              my projects to see them in action.
+            </p>
+            <a href="#projects" class="button button--flex"
+              >See Projects <i class="ri-arrow-right-line"></i
+            ></a>
+          </div>
+          <ul class="skills__list">
+            <li class="skills__item">
+              <span class="skills__number">01</span> HTML & CSS
+            </li>
+            <li class="skills__item">
+              <span class="skills__number">02</span> JavaScript
+            </li>
+            <li class="skills__item">
+              <span class="skills__number">03</span> React
+            </li>
+            <li class="skills__item">
+              <span class="skills__number">04</span> Git & GitHub
+            </li>
+            <li class="skills__item">
+              <span class="skills__number">05</span> Figma
+            </li>
+            <li class="skills__item">
+              <span class="skills__number">06</span> Responsive Design
+            </li>
+            <li class="skills__item">
+              <span class="skills__number">07</span> UI / UX
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section__title">What I Do</h2>
+        <div class="services__container container grid">
+          <article class="services__card">
+            <div class="services__icon">
+              <i class="ri-code-s-slash-line"></i>
+            </div>
+            <h3 class="services__title">Web Developer</h3>
+            <p class="services__description">
+              I build fast, responsive websites using modern standards and best
+              practices. From landing pages to web apps.
+            </p>
+          </article>
+          <article class="services__card">
+            <div class="services__icon"><i class="ri-palette-line"></i></div>
+            <h3 class="services__title">UI/UX Designer</h3>
+            <p class="services__description">
+              I design clean, intuitive interfaces focused on usability and
+              accessibility. Prototyping and visual design.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <h2 class="section__title">Recent Projects</h2>
+        <div class="projects__container container grid">
+          <article class="projects__card">
+            <div class="projects__img-wrapper">
+              <img
+                src="assets/img/project-img-1.jpg"
+                alt="Mini Social Media App"
+                class="projects__img"
+              />
+              <a href="https://codealpha-minisocialmedia-fkfw.onrender.com" target="_blank" class="projects__link"
+                >View demo <i class="ri-arrow-right-line"></i
+              ></a>
+            </div>
+            <h3 class="projects__title">Mini Social Media App</h3>
+          </article>
+          <article class="projects__card">
+            <div class="projects__img-wrapper">
+              <img
+                src="assets/img/project-img-2.jpg"
+                alt="Gym Website"
+                class="projects__img"
+              />
+              <a href="https://gym-website-alpha-two.vercel.app" target="_blank" class="projects__link"
+                >View demo <i class="ri-arrow-right-line"></i
+              ></a>
+            </div>
+            <h3 class="projects__title">Gym Website</h3>
+          </article>
+          <article class="projects__card">
+            <div class="projects__img-wrapper">
+              <img
+                src="assets/img/project-img-3.jpg"
+                alt="E-Commerce Website"
+                class="projects__img"
+              />
+              <a href="https://github.com/abinhyanmikha/CodeAlpha_ecommerce" target="_blank" class="projects__link"
+                >View repo <i class="ri-github-line"></i
+              ></a>
+            </div>
+            <h3 class="projects__title">E-Commerce Website</h3>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <div class="contact__container container">
+          <form class="contact__form" id="contact-form">
+            <div class="contact__inputs">
+              <input
+                type="text"
+                id="contact-name"
+                placeholder="Enter your name"
+                class="contact__input"
+                required
+              />
+              <input
+                type="email"
+                id="contact-email"
+                placeholder="Enter your email"
+                class="contact__input"
+                required
+              />
+            </div>
+            <textarea
+              id="contact-message"
+              placeholder="Enter your message"
+              class="contact__input contact__textarea"
+              rows="5"
+              required
+            ></textarea>
+            <button type="submit" class="button button--flex">
+              Send Message <i class="ri-send-plane-line"></i>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__content">
+          <span class="footer__name">Abin Hyanmikha</span>
+          <span class="footer__role">Front-end Developer</span>
+        </div>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/abinhyanmikha" target="_blank" class="footer__social-link" aria-label="Instagram"
+            ><i class="ri-instagram-line"></i
+          ></a>
+          <a href="#" class="footer__social-link" aria-label="Dribbble"
+            ><i class="ri-dribbble-line"></i
+          ></a>
+          <a href="https://github.com/abinhyanmikha" target="_blank" class="footer__social-link" aria-label="GitHub"
+            ><i class="ri-github-line"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up"
+      ><i class="ri-arrow-up-line"></i
+    ></a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
